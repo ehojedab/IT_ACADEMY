@@ -21,5 +21,21 @@ echo "Boolean = ".$d_boolean ."<br>";
 //todas las variables concatenadas con salto de linea.
 echo $a_integer."<br>". $b_double."<br>". $c_string."<br>".$d_boolean."<br>"."<br>";
 
+//---- EJERCICIO 2 ---- 
+
+echo "EJERCICIO 2"."<br>"."<br>";
+
+$saludo = "Hello, Wordl!";
+
+$saludo_Mayusculas = strtoupper($saludo);//funcon pasa todos los carateres a Mayuscula (STR=>String)
+
+echo strlen($saludo)."<br>"; //funcion - Tambien se cuentan los espacios en la longitud del String. 
+
+echo strrev($saludo)."<br>";//funcion - Invierte el String.
+
+$curso = "Este es el curso de PHP";
+
+echo $saludo, $curso,"<br>","<br>"; //Se puede concatenar con (,)
+
 
 ?>
