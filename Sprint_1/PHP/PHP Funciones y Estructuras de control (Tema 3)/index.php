@@ -69,4 +69,30 @@ function verificar_nota($nota){
 
 echo verificar_nota(19)."<br>"."<br>";
 
+
+//---- EJERCICIO 6 ----  
+
+echo "EJERCICIO 6"."<br>"."<br>";     
+
+function isBitten(){
+
+    //if($randon = rand(0, 1) ){
+        if(rand(0, 1) == 1){
+           $res = true;
+        }else {
+          $res = false;
+        }
+        return $res;
+
+    }
+//}
+
+$devolucion = isBitten();
+
+if($devolucion == true){
+    echo "Charlie Te Mordio";
+}else{
+    echo "Charlie NO Te Mordio";
+}
+
 ?> 
