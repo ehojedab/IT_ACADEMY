@@ -149,3 +149,31 @@
     .p_footer {
         background-color: orange;
     }
+
+    
+
+@media only screen and (max-width: 768px) {
+
+    .container2 {
+        background-color: rgb(255, 251, 0);
+        display : block;
+    }
+    
+    article {
+        width: 100%;
+        
+    }
+
+    aside {
+        
+        width: 100%;
+        margin-top: 20px;  
+    }
+
+    .p_aside {
+        margin-top : 20px;
+    }
+  
+
+
+}
