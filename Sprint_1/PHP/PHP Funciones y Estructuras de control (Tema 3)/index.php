@@ -42,11 +42,11 @@ function verificar_nota($nota){
 
     if($nota>0 && $nota <=100){
 
-            if($nota == 0 && $nota<33){
+            if( $nota<33){
 
                 $respuesta = "El estudiante ha reprobado";
 
-            }else if($nota==33 && $nota<=44){
+            }else if($nota==33 || $nota<=44){
 
                 $respuesta = "El estudiante es de Tercera Division";
 
@@ -67,7 +67,7 @@ function verificar_nota($nota){
 
 }
 
-echo verificar_nota(19)."<br>"."<br>";
+echo verificar_nota(79)."<br>"."<br>";
 
 
 //---- EJERCICIO 6 ----  
