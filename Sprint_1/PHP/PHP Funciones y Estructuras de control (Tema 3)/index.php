@@ -30,4 +30,43 @@ function contar($temporizador = 10){//Ejercicio 4
 
 echo contar(13)."<br>";// Ejercicio 3 // Se puede pasar otro parametro diferente al default. 
 
+
+//---- EJERCICIO 5 ----  
+
+echo "EJERCICIO 5"."<br>"."<br>";
+
+
+function verificar_nota($nota){
+
+    $respuesta = "";
+
+    if($nota>0 && $nota <=100){
+
+            if($nota == 0 && $nota<33){
+
+                $respuesta = "El estudiante ha reprobado";
+
+            }else if($nota==33 && $nota<=44){
+
+                $respuesta = "El estudiante es de Tercera Division";
+
+            }else if($nota>44 && $nota<=59){
+
+                $respuesta = "El estudiante es de Segunda Division";
+
+            }else{
+
+                $respuesta = "El estudiante es de Primera Division";
+            }
+
+            return $respuesta;
+            
+    }else {
+        echo "La nota no esta dentro del rango valido";
+    }
+
+}
+
+echo verificar_nota(19)."<br>"."<br>";
+
 ?> 
