@@ -125,4 +125,22 @@ $producto_total = $X * $Y * $N * $M;
 echo "El producto de todas las variables es ".$producto_total."<br>"."<br>";
 
 
+
+//---- EJERCICIO 5----
+
+print "EJERCICIO 5"."<br>"."<br>";
+
+$array_1 = array(3,5,6,4,8);
+//echo $array_1[3]."<br>";
+
+$array_2 = array(9,7,0);
+array_push($array_2,1);//Agrega elementos a mi array_push ($array, elemento)
+//echo $array_2[3];
+
+$array_resultante = array_merge($array_1, $array_2);//Combina los elementos de 2 o mas arrays, 
+//el orden ($array_1, $array_2)  define como se anexan
+echo "El tamaño del Array resultante es ".count($array_resultante)."<br>";
+print_r($array_resultante);
+
+
   ?> 
