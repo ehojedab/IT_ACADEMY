@@ -65,3 +65,64 @@ define('NOMBRE', 'Havier Ojeda');
      <br>
 </body>
 </html>
+
+<?php 
+       
+       //---- EJERCICIO 4----
+
+print "EJERCICIO 4"."<br>"."<br>";
+
+$X = 7;
+$Y = 3;
+
+echo "X es = ".$X.", Y es = ".$Y."<br>";
+
+$suma = $X + $Y;
+echo "X + Y  = ".$suma."<br>";
+
+$resta = $X - $Y;
+echo "X - Y  = ".$resta."<br>";
+
+$producto = $X * $Y;
+echo "X * Y  = ".$producto."<br>";
+
+$modulo = $X % $Y;
+echo "X % Y  = ".$modulo."<br>"."<br>";
+
+//----------------------------------------------------------------
+
+$N = 8.8;
+$M = 2.5;
+
+echo "N es = ".$N.", M es = ".$M."<br>";
+
+$suma = $N + $M;
+echo "N + M  = ".$suma."<br>";
+
+$resta = $N - $M;
+echo "N - M  = ".$resta."<br>";
+
+$producto = $N * $M;
+echo "N * M  = ".$producto."<br>";
+
+$modulo = $N % $M;
+echo "N % M  = ".$modulo."<br>";//Convierte primero a integer.
+
+$modulo_float = fmod($N, $M);
+echo "N % M  = ".$modulo_float."<br>"."<br>";//Funcion que opera el modulo directo con . flotante
+
+//----------------------------------------------------------------
+
+echo "El doble de X es ".($X*2)."<br>";
+echo "El doble de Y es ".($Y*2)."<br>";
+echo "El doble de N es ".($N*2)."<br>";
+echo "El doble de M es ".($M*2)."<br>"."<br>";
+
+$suma_total = $X + $Y + $N + $M;
+echo "La suma de todas las variables es ".$suma_total."<br>";
+
+$producto_total = $X * $Y * $N * $M;
+echo "El producto de todas las variables es ".$producto_total."<br>"."<br>";
+
+
+  ?> 
