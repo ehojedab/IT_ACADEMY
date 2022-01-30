@@ -38,4 +38,30 @@ $curso = "Este es el curso de PHP";
 echo $saludo, $curso,"<br>","<br>"; //Se puede concatenar con (,)
 
 
+
+
+//---- EJERCICIO 3 ----
+
+print "EJERCICIO 3"."<br>";
+
+define('NOMBRE', 'Havier Ojeda');
+
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>
+        <?php 
+        print NOMBRE;//Print no concatena varias variables. 
+         ?> 
+     </h1>
+     <br>
+</body>
+</html>
