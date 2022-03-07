@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "6225392943f619d3845a883c"
+  },
+  "fecha_solicitud": {
+    "$date": "2022-01-22T23:00:00Z"
+  },
+  "Orden": [
+    {
+      "idProducto": 1,
+      "nombre_producto": "Pizza Hawaina",
+      "descripcion_producto": "Tomate, queso, jamon, piña 200",
+      "precio_producto": 9.9,
+      "tipo_producto": "pizza",
+      "categoria": "americana",
+      "cantidad": 1
+    },
+    {
+      "idProducto": 4,
+      "nombre_producto": "Pizza Diavola",
+      "descripcion_producto": "Tomate, queso, chirizo",
+      "precio_producto": 9.2,
+      "categoria": "italiana",
+      "tipo_producto": "pizza",
+      "cantidad": 1
+    }
+  ],
+  "fecha_entrega": {
+    "$date": "2022-01-21T23:30:00Z"
+  },
+  "nombre_empleado": "Cristian",
+  "precio_total": 19.1,
+  "idCliente": 1,
+  "idTienda": 1
+},{
+  "_id": {
+    "$oid": "622546cd43f619d3845a889b"
+  },
+  "fecha_solicitud": {
+    "$date": "2022-01-22T23:10:50Z"
+  },
+  "idCliente": 4,
+  "Orden": [
+    {
+      "idProducto": 5,
+      "nombre_producto": "Acuarius",
+      "descripcion_producto": "500 ml",
+      "precio_producto": 2.75,
+      "tipo_producto": "bebida",
+      "cantidad": 2
+    },
+    {
+      "idProducto": 7,
+      "nombre_producto": "Pizza BBQ",
+      "descripcion_producto": "Pollo, tomate, queso, salsa bbq",
+      "precio_producto": 10.9,
+      "categoria": "americana",
+      "tipo_producto": "pizza",
+      "cantidad": 1
+    },
+    {
+      "idProducto": 3,
+      "nombre_producto": "Hamburguesa Clasica",
+      "descripcion_producto": "Carne 200gr, tomate, cebolla, queso",
+      "precio_producto": 8.9,
+      "tipo_producto": "hamburguesa",
+      "cantidad": 1
+    }
+  ],
+  "idTienda": 3,
+  "precio_total": 25.3
+}]

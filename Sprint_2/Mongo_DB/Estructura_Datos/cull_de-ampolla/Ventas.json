@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6225200343f619d3845a87f8"
+  },
+  "fecha_venta": {
+    "$date": "2022-05-11T22:00:00Z"
+  },
+  "nombre_cliente": "Havier",
+  "nombre_vendedor": "Ruth",
+  "id_compra": 1,
+  "id_gafas": 3
+},{
+  "_id": {
+    "$oid": "6225239243f619d3845a8803"
+  },
+  "fecha_venta": {
+    "$date": "2022-05-15T22:00:00Z"
+  },
+  "id_compra": 2,
+  "id_gafas": 1,
+  "nombre_cliente": "Camila",
+  "nombre_vendedor": "Marta"
+}]

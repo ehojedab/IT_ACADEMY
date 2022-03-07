@@ -1,0 +1,101 @@
+[{
+  "_id": {
+    "$oid": "622531ac43f619d3845a882e"
+  },
+  "idTienda": 1,
+  "direccion_tienda": "Calle rubiales 12",
+  "codigo_postal_tienda": 8001,
+  "localidad": "Barcelona",
+  "provincia": "Barcelona",
+  "Empleados": [
+    {
+      "id_empleado": 1,
+      "nombre": "Cristian",
+      "apellido": "Ramirez",
+      "nif": "12345678P",
+      "telefono": 653123456,
+      "puesto": "Repartidor"
+    },
+    {
+      "id_empleado": 2,
+      "nombre": "Ramon",
+      "apellido": "Canales",
+      "nif": "98745632Q",
+      "telefono": 612345689,
+      "puesto": "Cocinero"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "622531ac43f619d3845a882f"
+  },
+  "idTienda": 2,
+  "direccion_tienda": "Av Pepe Reina 665",
+  "codigo_postal_tienda": 43201,
+  "localidad": "Reus",
+  "provincia": "Tarragona",
+  "Empleados": [
+    {
+      "id_empleado": 5,
+      "nombre": "Jordi",
+      "apellido": "Mateus",
+      "nif": "45632178R",
+      "telefono": 625887741,
+      "puesto": "Cocinero"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "622531ac43f619d3845a8830"
+  },
+  "idTienda": 3,
+  "direccion_tienda": "Calle Paris 234",
+  "codigo_postal_tienda": 8001,
+  "localidad": "Barcelona",
+  "provincia": "Barcelona",
+  "Empleados": [
+    {
+      "id_empleado": 3,
+      "nombre": "Andrea",
+      "apellido": "Reus",
+      "nif": "98562341Q",
+      "telefono": 689532147,
+      "puesto": "Repartidor"
+    },
+    {
+      "id_empleado": 4,
+      "nombre": "Jessenia",
+      "apellido": "Esteves",
+      "nif": "45678912P",
+      "telefono": 693258741,
+      "puesto": "Cocinero"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "622531ac43f619d3845a8831"
+  },
+  "idTienda": 4,
+  "direccion_tienda": "Rambla Brazil",
+  "codigo_postal_tienda": 43201,
+  "localidad ": "Reus",
+  "provincia": "Tarragona",
+  "Empleados": [
+    {
+      "id_empleado": 6,
+      "nombre": "Ruben",
+      "apellido": "Alvarez",
+      "nif": "78965321G",
+      "telefono": 658974123,
+      "puesto": "Cocinero"
+    },
+    {
+      "id_empleado": 8,
+      "nombre": "Lucia",
+      "apellido": "Figueredo",
+      "nif": "78945612K",
+      "telefono": 632121248,
+      "puesto": "Repartidor"
+    }
+  ]
+}]

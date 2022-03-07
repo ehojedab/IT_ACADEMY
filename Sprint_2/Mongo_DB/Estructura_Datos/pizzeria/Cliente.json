@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "622537b043f619d3845a8834"
+  },
+  "idCliente": 1,
+  "apellido": "Rodriguez",
+  "codigo_postal": 8001,
+  "direccion": "Calle ample 34 - 4to 2da",
+  "nombre": "Alejandro",
+  "telefono": 630210218,
+  "Provincia": "Barcelona",
+  "localidad": "Barcelona"
+},{
+  "_id": {
+    "$oid": "622537b043f619d3845a8835"
+  },
+  "idCliente": 2,
+  "apellido": "Morales",
+  "codigo_postale": 8002,
+  "direccion": "Av Roma 23 - Pp 1",
+  "localidad": "Reus",
+  "nombre": "Rene",
+  "provincia": "Tarragona",
+  "telefono": 678319726
+},{
+  "_id": {
+    "$oid": "622537b043f619d3845a8836"
+  },
+  "idCliente": 3,
+  "apellido": "Romero",
+  "codigo_postal": 43201,
+  "direccion": "Paseing Catalan - Bajo 1",
+  "localidad": "Reus",
+  "nombre": "Camilo ",
+  "provincia": "Tarragona",
+  "telefono": 672187261
+},{
+  "_id": {
+    "$oid": "622537b043f619d3845a8837"
+  },
+  "idCliente": 4,
+  "apellido": "Puig",
+  "codigo_postal": 8901,
+  "direccion": "Rambla badal - At B",
+  "localidad": "Barcelona",
+  "nombre": "Andrea",
+  "provincia": "Barcelona",
+  "telefono": 676216581
+},{
+  "_id": {
+    "$oid": "622537b043f619d3845a8838"
+  },
+  "idCliente": 5,
+  "apellido": "Farfan",
+  "codigo_postal": 43201,
+  "direccion": "Calle Urgell - 2do 2da",
+  "localidad": "Barcelona",
+  "nombre": "Jessica ",
+  "provincia": "Barcelona",
+  "telefono": 676532651
+},{
+  "_id": {
+    "$oid": "622537b043f619d3845a8839"
+  },
+  "idCliente": 6,
+  "apellido": "Quijano",
+  "codigo_postal": 8004,
+  "direccion": "Av madrid - 1ro A",
+  "localidad": "Reus",
+  "nombre": "Ramon ",
+  "provincia": "Tarragona",
+  "telefono": 698327141
+}]

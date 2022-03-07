@@ -1,0 +1,88 @@
+[{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a881d"
+  },
+  "idProducto": 1,
+  "nombre_producto": "Pizza Hawaina",
+  "descripcion_producto": "Tomate, queso, jamon, piña 200",
+  "precio_producto": 9.9,
+  "tipo_producto": "pizza",
+  "categoria": "americana"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a881e"
+  },
+  "idProducto": 2,
+  "nombre_producto": "Pizza Margarita",
+  "descripcion_producto": "Tomate, queso, albahaca",
+  "precio_producto": 6.5,
+  "categoria": "italiana",
+  "tipo_producto": "pizza"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a881f"
+  },
+  "idProducto": 3,
+  "nombre_producto": "Hamburguesa Clasica",
+  "descripcion_producto": "Carne 200gr, tomate, cebolla, queso",
+  "precio_producto": 8.9,
+  "tipo_producto": "hamburguesa"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8820"
+  },
+  "idProducto": 4,
+  "nombre_producto": "Pizza Diavola",
+  "descripcion_producto": "Tomate, queso, chirizo",
+  "precio_producto": 9.2,
+  "categoria": "italiana",
+  "tipo_producto": "pizza"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8821"
+  },
+  "idProducto": 5,
+  "nombre_producto": "Acuarius",
+  "descripcion_producto": "500 ml",
+  "precio_producto": 2.75,
+  "tipo_producto": "bebida"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8822"
+  },
+  "idProducto": 6,
+  "nombre_producto": "Coca cola",
+  "descripcion_producto": "350 ml",
+  "precio_producto": 1.9,
+  "tipo_producto": "bebida"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8823"
+  },
+  "idProducto": 7,
+  "nombre_producto": "Pizza BBQ",
+  "descripcion_producto": "Pollo, tomate, queso, salsa bbq",
+  "precio_producto": 10.9,
+  "categoria": "americana",
+  "tipo_producto": "pizza"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8824"
+  },
+  "idProducto": 8,
+  "nombre_producto": "Pizza Mariana",
+  "descripcion_producto": "Tomate, ajo",
+  "precio_producto": 5.9,
+  "categoria": "italiana",
+  "tipo_producto": "pizza"
+},{
+  "_id": {
+    "$oid": "62252fbf43f619d3845a8825"
+  },
+  "idProducto": 9,
+  "nombre_producto": "Pizza 4 Quesos",
+  "descripcion_producto": "Quesos, tomate",
+  "precio_producto": 8.9,
+  "categoria": "italiana",
+  "tipo_producto": "pizza"
+}]

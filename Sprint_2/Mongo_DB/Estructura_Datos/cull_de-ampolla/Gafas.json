@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "62208d5c43f619d3845a87c9"
+  },
+  "gra_izq": 0.75,
+  "gra_der": 1.25,
+  "color_lente": "verde",
+  "color_montura": "negro",
+  "precio": 120,
+  "tipo_marco": "metal",
+  "marca": "Police",
+  "id_gafas": 1
+},{
+  "_id": {
+    "$oid": "6225171a43f619d3845a87df"
+  },
+  "color_lente": "neutro",
+  "color_montura": "cafe",
+  "gra_der": 1.25,
+  "gra_izq": 0.25,
+  "precio": 225.5,
+  "tipo_marco": "pasta",
+  "marca": "Tous",
+  "id_gafas": 2
+},{
+  "_id": {
+    "$oid": "622517a843f619d3845a87e0"
+  },
+  "color_lente": "marron",
+  "color_montura": "negro",
+  "gra_der": 0.5,
+  "gra_izq": 2.75,
+  "precio": 165.99,
+  "tipo_marco": "flotante",
+  "marca": "Tous",
+  "id_gafas": 3
+},{
+  "_id": {
+    "$oid": "6225185043f619d3845a87e1"
+  },
+  "color_lente": "neutro",
+  "color_montura": "plata",
+  "gra_der": 0.75,
+  "gra_izq": 0.15,
+  "precio": 245.5,
+  "tipo_marco": "metal",
+  "id_gafas": 4
+},{
+  "_id": {
+    "$oid": "622518ce43f619d3845a87e2"
+  },
+  "color_lente": "gris",
+  "color_montura": "marron",
+  "gra_der": 0.25,
+  "gra_izq": 1.25,
+  "precio": 115.99,
+  "tipo_marco": "flotante",
+  "marca": "Ray Ban",
+  "id_gafas": 5
+},{
+  "_id": {
+    "$oid": "6225192b43f619d3845a87e3"
+  },
+  "color_lente": "verde",
+  "color_montura": "madera",
+  "gra_der": 1.5,
+  "gra_izq": 1.25,
+  "precio": 225.5,
+  "tipo_montura": "pasta",
+  "marca": "Oakley",
+  "id_gafas": 6
+}]

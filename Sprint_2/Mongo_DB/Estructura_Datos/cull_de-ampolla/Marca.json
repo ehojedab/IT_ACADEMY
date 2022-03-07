@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "62250b1743f619d3845a87d9"
+  },
+  "nombre": "Police",
+  "proovedor": {
+    "nombre": "Internacional de Lentes",
+    "direccion": {
+      "calle": "Princep de viana",
+      "numero": 23,
+      "piso": "Principal",
+      "puerta": "A",
+      "ciudad": "Barcelona",
+      "codigo_postal": 8001,
+      "pais": "España"
+    },
+    "telefono": 900265896,
+    "fax": 900258962,
+    "nif": "12345678W"
+  }
+},{
+  "_id": {
+    "$oid": "62250bf743f619d3845a87da"
+  },
+  "nombre": "Tous",
+  "proovedor": {
+    "nombre": "Internacional de Lentes",
+    "direccion": {
+      "calle": "Princep de viana",
+      "numero": 23,
+      "piso": "Principal",
+      "puerta ": "A",
+      "ciudad": "Barcelona",
+      "codigo_postal": 8001,
+      "pais": "España"
+    },
+    "telefono": 900265896,
+    "fax": 900258962,
+    "nif": "12345678W"
+  }
+},{
+  "_id": {
+    "$oid": "62250cb843f619d3845a87db"
+  },
+  "nombre": "Ray Ban",
+  "proovedor": {
+    "nombre": "Importadora de Lentes y Monturas",
+    "direccion": {
+      "calle": "Av Roma",
+      "numero": 587,
+      "piso": "2",
+      "puerta": "6",
+      "ciudad": "Madrid",
+      "codigo_postal": 28011,
+      "pais": "España"
+    },
+    "telefono": 658987456,
+    "fax": 965789456,
+    "nif": "Y6784052M"
+  }
+},{
+  "_id": {
+    "$oid": "622515bd43f619d3845a87dc"
+  },
+  "nombre": "Oakley",
+  "proovedor": {
+    "nombre": "Comercializadora de Gafas SL",
+    "direccion": {
+      "calle": "Paseo de la Castellana",
+      "numero": "bajo",
+      "piso": "2",
+      "puerta": "B",
+      "ciudad": "Madrid",
+      "codigo_postal": 28014,
+      "pais": "España"
+    },
+    "telefono": "689256123",
+    "nif": "78945612T"
+  }
+}]

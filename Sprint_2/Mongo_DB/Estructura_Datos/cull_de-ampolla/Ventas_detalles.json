@@ -1,0 +1,82 @@
+[{
+  "_id": {
+    "$oid": "6225200343f619d3845a87f8"
+  },
+  "fecha_venta": {
+    "$date": "2022-05-11T22:00:00Z"
+  },
+  "nombre_cliente": "Havier",
+  "nombre_vendedor": "Ruth",
+  "id_compra": 1,
+  "id_gafas": 3,
+  "datos_cliente": [
+    {
+      "_id": {
+        "$oid": "622519b643f619d3845a87e6"
+      },
+      "codigo_postal": 8001,
+      "email": "havier@gmail.com",
+      "fecha_registro": {
+        "$date": "2021-11-22T13:15:10Z"
+      },
+      "nombre": "Havier",
+      "nombre_referido": "Ruben",
+      "telefono": 632895478
+    }
+  ],
+  "Detalles Compra": [
+    {
+      "_id": {
+        "$oid": "622517a843f619d3845a87e0"
+      },
+      "color_lente": "marron",
+      "color_montura": "negro",
+      "gra_der": 0.5,
+      "gra_izq": 2.75,
+      "precio": 165.99,
+      "tipo_marco": "flotante",
+      "marca": "Tous",
+      "id_gafas": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6225239243f619d3845a8803"
+  },
+  "fecha_venta": {
+    "$date": "2022-05-15T22:00:00Z"
+  },
+  "id_compra": 2,
+  "id_gafas": 1,
+  "nombre_cliente": "Camila",
+  "nombre_vendedor": "Marta",
+  "datos_cliente": [
+    {
+      "_id": {
+        "$oid": "62251b6743f619d3845a87e8"
+      },
+      "codigo_postal": 28016,
+      "email": "camila@gmail.com",
+      "fecha_registro": {
+        "$date": "2021-12-29T13:05:00Z"
+      },
+      "nombre": "Camila",
+      "telefono": 645987156
+    }
+  ],
+  "Detalles Compra": [
+    {
+      "_id": {
+        "$oid": "62208d5c43f619d3845a87c9"
+      },
+      "gra_izq": 0.75,
+      "gra_der": 1.25,
+      "color_lente": "verde",
+      "color_montura": "negro",
+      "precio": 120,
+      "tipo_marco": "metal",
+      "marca": "Police",
+      "id_gafas": 1
+    }
+  ]
+}]
