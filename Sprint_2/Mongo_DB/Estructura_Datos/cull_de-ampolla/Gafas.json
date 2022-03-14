@@ -1,4 +1,4 @@
-[{
+db.Gafas.insert([{
   "_id": {
     "$oid": "62208d5c43f619d3845a87c9"
   },
@@ -69,4 +69,4 @@
   "tipo_montura": "pasta",
   "marca": "Oakley",
   "id_gafas": 6
-}]
+}]);

@@ -1,4 +1,6 @@
-[{
+use Cul_de_Ampolla
+
+db.Cliente.insert([{
   "_id": {
     "$oid": "622519b643f619d3845a87e6"
   },
@@ -44,4 +46,6 @@
   "nombre": "Jessica",
   "nombre_referido": "Havier",
   "telefono": 632165489
-}]
+}])
+
+

@@ -1,4 +1,5 @@
-[{
+db.Ventas.insert([{
+  
   "_id": {
     "$oid": "6225200343f619d3845a87f8"
   },
@@ -20,4 +21,4 @@
   "id_gafas": 1,
   "nombre_cliente": "Camila",
   "nombre_vendedor": "Marta"
-}]
+}])
