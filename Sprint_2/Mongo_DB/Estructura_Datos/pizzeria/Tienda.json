@@ -1,3 +1,4 @@
+db.Tienda.insert(
 [{
   "_id": {
     "$oid": "622531ac43f619d3845a882e"
@@ -98,4 +99,4 @@
       "puesto": "Repartidor"
     }
   ]
-}]
+}])

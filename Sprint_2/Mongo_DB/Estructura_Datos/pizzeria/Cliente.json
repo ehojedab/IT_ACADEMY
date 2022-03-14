@@ -1,3 +1,7 @@
+
+use pizzeria 
+
+db.Cliente.insert(
 [{
   "_id": {
     "$oid": "622537b043f619d3845a8834"
@@ -70,4 +74,4 @@
   "nombre": "Ramon ",
   "provincia": "Tarragona",
   "telefono": 698327141
-}]
+}])

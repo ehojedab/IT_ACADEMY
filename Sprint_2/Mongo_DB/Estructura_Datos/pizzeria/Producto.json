@@ -1,3 +1,4 @@
+db.Producto.insert(
 [{
   "_id": {
     "$oid": "62252fbf43f619d3845a881d"
@@ -85,4 +86,4 @@
   "precio_producto": 8.9,
   "categoria": "italiana",
   "tipo_producto": "pizza"
-}]
+}])

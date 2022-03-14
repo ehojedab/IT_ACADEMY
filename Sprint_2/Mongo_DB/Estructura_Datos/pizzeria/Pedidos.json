@@ -1,3 +1,4 @@
+db.Pedidos.insert(
 [{
   "_id": {
     "$oid": "6225392943f619d3845a883c"
@@ -69,4 +70,4 @@
   ],
   "idTienda": 3,
   "precio_total": 25.3
-}]
+}])
