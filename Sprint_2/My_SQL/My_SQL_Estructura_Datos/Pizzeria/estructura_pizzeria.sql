@@ -401,4 +401,11 @@ SELECT localidad.nombre_localidad, sum(orden.cantidad) AS Cantidad_De_Bebidas_ve
 
 SELECT pedido.idPedido, pedido.fecha_pedido, pedido.hora_entrega, empleado.nombre_empleado, pedido.id_Tienda FROM pedido INNER JOIN empleado ON pedido.Empleado_idEmpleado = empleado.idEmpleado WHERE empleado.nombre_empleado = 'Jessenia';
 
-SELECT pedido.idPedido, pedido.fecha_pedido, pedido.hora_entrega, empleado.nombre_empleado, pedido.id_Tienda FROM pedido INNER JOIN empleado ON pedido.Empleado_idEmpleado = empleado.idEmpleado WHERE empleado.nombre_empleado = 'Cristian ';
+SELECT pedido.idPedido, pedido.fecha_pedido, pedido.hora_entrega, empleado.nombre_empleado, pedido.id_Tienda FROM pedido INNER JOIN empleado ON pedido.Empleado_idEmpleado = empleado.idEmpleado WHERE empleado.nombre_empleado = 'Cristian';
+
+
+
+
+
+
+
