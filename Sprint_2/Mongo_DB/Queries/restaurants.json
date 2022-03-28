@@ -3791,31 +3791,32 @@ Escribe una consulta para mostrar los primeros 5 restaurantes que están en el B
 db.restaurants.({"borough":Bronx}).limit(5);
 
 Escribe una consulta para mostrar los 5 restaurantes después de saltar los primeros 5 que sean del Bronx
-
+db.restaurants.find({"borough": "Bronx"}).skip(5).limit(5);
 
 Escribe una consulta para encontrar los restaurantes que tienen algún resultado mayor de 90
 db.restaurants.find( {"grades.score": {$gt: 90 }})
 
 Escribe una consulta para encontrar los restaurantes que tienen un resultado mayor que 80 pero menos que 100
-
+db.restaurants.find({grades : { $elemMatch:{"score":{$gt : 80 , $lt :100}}}});
 
 Escribe una consulta para encontrar los restaurantes situados en términos de latitud inferiores a -95.754168
-
+db.restaurants.find({"address.coord.1": { "$lt": -95.754168 }
 
 Escribe una consulta de MongoDB para encontrar los restaurantes que no cocinan comida 'American' y tienen algún resultado superior a 70 y latitud inferior a -65.754168
-
+db.restaurants.find({"cuisine": { "$ne": "American "}, "grades.score": { "$gt": 70 },"address.coord.1": { "$gte": -65.754168 }
+});
 
 Escribe una consulta para encontrar los restaurantes que no preparan comida 'American' y tienen algún resultado superior a 70 y que, además, se localizan en longitudes inferiores a -65.754168. Nota : Realiza esta consulta sin utilizar operador $and 
 
 
 Escribe una consulta para encontrar los restaurantes que no preparan comida 'American', tienen alguna nota 'A' y no pertenecen a Brooklyn. Se debe mostrar el documento según la cuisine en orden descendente
-
+db.restaurants.find( {"cuisine" : {$ne : "American "}, "grades.grade" :"A","borough": {$ne : "Brooklyn"}} ).sort({"cuisine":-1});
 
 Escribe una consulta para encontrar el restaurante_id, name, borough y cuisine para aquellos restaurantes que contienen 'Wil' en las tres primeras letras en su nombre
-
+db.restaurants.find({name: /^Wil/},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1});
 
 Escribe una consulta para encontrar el restaurante_id, name, borough y cuisine para aquellos restaurantes que contienen 'ces' en las últimas tres letras en su nombre
-
+db.restaurants.find({name: /ces$/},{"restaurant_id" : 1,"name":1,"borough":1,"cuisine" :1});
 
 Escribe una consulta para encontrar el restaurante_id, name, borough y cuisine para aquellos restaurantes que contienen 'Reg' en cualquier lugar de su nombre
 
